@@ -1,0 +1,17 @@
+h1{
+    color: azure;
+    background: black;
+    text-align: center;
+}
+
+footer{
+    color: grey;
+    text-align: right;
+}
+
+p{
+    text-align: center;
+    color: darkcyan;
+    background: black;
+}
+
