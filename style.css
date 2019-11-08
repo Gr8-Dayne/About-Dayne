@@ -4,8 +4,12 @@ h1{
     text-align: center;
 }
 
+body{
+    background-color: grey;
+}
+
 footer{
-    color: grey;
+    color: white;
     text-align: right;
 }
 
