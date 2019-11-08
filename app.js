@@ -10,6 +10,7 @@ console.log('the users name is ' + user);
 alert('Hello ' + user + '. To continue onto this site, please complete this guessing game about Dayne.');
 
 // capture more user input, then send back if they got it right or wrong
+function one(){
 var origin = prompt('Is Dayne from Seattle?');
 if (origin === 'y' || origin === 'yes' || origin === 'n' || origin === 'no'){
     origin = origin.toUpperCase()
@@ -21,8 +22,12 @@ if (origin === 'YES'){
 }else{
     alert('Incorrect.')
 }
+}
+
+one();
 
 // capture more user input, then send back if they got it right or wrong
+function two(){
 var movie = prompt('Does Dayne like Star Wars?');
 if (movie === 'y' || movie === 'yes' || movie === 'n' || movie === 'no'){
     movie = movie.toUpperCase()
@@ -34,8 +39,11 @@ if (movie === 'YES'){
 }else{
     alert('Incorrect.')
 }
+}
+two();
 
 // capture more user input, then send back if they got it right or wrong
+function three(){
 var car = prompt('Does Dayne drive a BMW?')
 if (car === 'y' || car === 'yes' || car === 'n' || car === 'no'){
     car = car.toUpperCase()
@@ -47,8 +55,12 @@ if (car === 'YES'){
 }else{
     alert('Incorrect.')
 }
+}
+
+three();
 
 // capture more user input, then send back if they got it right or wrong
+function four(){
 var hoowah = prompt('Was Dayne an Army Ranger?')
 if (hoowah === 'y' || hoowah === 'yes' || hoowah === 'n' || hoowah === 'no'){
     hoowah = hoowah.toUpperCase()
@@ -60,8 +72,11 @@ if (hoowah === 'NO'){
 }else{
     alert('Incorrect.')
 }
+}
+four();
 
 // capture more user input, then send back if they got it right or wrong
+function five(){
 var school = prompt('Has Dayne been to college?')
 if (school === 'y' || school === 'yes' || school === 'n' || school === 'no'){
     school = school.toUpperCase()
@@ -73,9 +88,11 @@ if (school === 'NO'){
 }else{
     alert('Incorrect.');
 }
+}
+five();
 
 // question 6
-
+function six(){
 var favnum = 5;
 var counter = 4;
 
@@ -97,9 +114,12 @@ var numGuessInt = parseInt(numGuess);
         break;
     }
 }
+}
+
+six();
 
 // question 7
-
+function seven(){
 var carBrand = ['bmw', 'lada', 'toyota','nissan'];
 
 for (var i = 5; i >= 0; i--){
@@ -113,7 +133,8 @@ for (var i = 5; i >= 0; i--){
         alert('That is wrong!');
     }
 }
-
+}
+seven();
 
 
 alert('Thank you ' + user + '. You guessed ' + correctanswer + ' out of 7 correctly. I hope you enjoy my creation!');
