@@ -7,9 +7,6 @@ var user = prompt('Hello There! What is your name?');
 console.log('the users name is ' + user);
 
 
-// send the user a greeting w/ guessing game rules
-
-alert('Hello ' + user + '. To continue onto this site, please complete this guessing game about Dayne.');
 
 // capture more user input, then send back if they got it right or wrong
 
